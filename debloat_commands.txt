@@ -1,0 +1,65 @@
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.myphoto
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.mystyle
+pm uninstall -k --user 0 com.samsung.android.watch.compass
+pm uninstall -k --user 0 com.samsung.android.watch.weather
+pm uninstall -k --user 0 com.samsung.android.messaging
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.basicclock
+pm disable-user --user 0 com.samsung.android.bixby.agent
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.simpleclassic
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.dualwatch
+pm uninstall -k --user 0 com.samsung.android.samsungpay.gear
+pm uninstall -k --user 0 com.samsung.android.app.reminder
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.together
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.typography
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.large
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.animal
+pm uninstall -k --user 0 com.google.android.apps.maps
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.aremoji
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.analogmodular
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.emergency
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.simpleanalogue
+pm uninstall -k --user 0 com.google.android.apps.wearable.retailattractloop
+pm uninstall -k --user 0 com.samsung.android.bixby.wakeup
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.bitmoji
+pm uninstall -k --user 0 com.android.providers.userdictionary
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.superfiction
+pm uninstall -k --user 0 com.samsung.android.watch.worldclock
+pm uninstall -k --user 0 com.samsung.android.watch.cameracontroller
+pm uninstall -k --user 0 com.google.android.marvin.talkback
+pm uninstall -k --user 0 com.google.android.wearable.assistant
+
+# Only if you don't have a Samsung phone:
+pm uninstall -k --user 0 com.samsung.android.shealthmonitor
+
+# Added with new updates:
+pm uninstall -k --user 0 com.samsung.android.wearable.music
+pm uninstall -k --user 0 com.samsung.android.video.wearable
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.weather
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.healthmodular
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.livewallpaper
+
+# Additional watch faces:
+pm uninstall -k --user 0 com.samsung.android.watch.worldclock
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.analoguefont
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.simplecomplication
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.digitalfont
+pm uninstall -k --user 0 com.samsung.android.watch.watchface.digitalmodular
+
+# Dashboard and other features:
+pm uninstall -k --user 0 com.samsung.android.video.wearable 
+
+  Disclaimer
+
+The information provided in this post, including the ADB commands for debloating the Galaxy Watch 4, is intended for educational and informational purposes only. While these commands can help customize your device, please proceed with caution.
+
+Important Notes:
+
+    Risk of Data Loss: Using ADB commands may result in the unintentional removal of essential applications or data. Always back up your device before making any changes.
+
+    Device Warranty: Modifying system applications may void your warranty. Proceed at your own risk.
+
+    Compatibility: The commands listed are specifically for the Galaxy Watch 4. Using them on other devices may lead to unexpected behavior or issues.
+
+    No Responsibility: I am not responsible for any damage, data loss, or other issues that may arise from following this guide. Use these commands at your own discretion.
+
+If you are unsure about any step, consider seeking assistance from a knowledgeable source or refrain from making changes to your device.
