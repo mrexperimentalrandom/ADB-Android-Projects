@@ -1,0 +1,30 @@
+Given that you have Shizuku already set up and running, here's how you can connect to your Galaxy Watch 4 from aShell on your Android device:
+
+    Open aShell: Launch the aShell app on your Android device.
+    Forward ADB Connection:
+        In aShell, type the following command to forward the ADB connection to your watch:
+        bash
+
+        shizuku -c "adb forward tcp:5555 tcp:<watch_ip>:<watch_port>"
+
+        Replace <watch_ip> and <watch_port> with the IP address and port of your Galaxy Watch 4 that you noted from the Wireless debugging settings.
+    Connect to Your Watch:
+        After forwarding, connect to your watch by running:
+        bash
+
+        adb connect localhost:5555
+
+    Verify Connection:
+        To confirm the connection, type:
+        bash
+
+        adb devices
+
+        Your watch should appear in the list.
+
+
+This process uses Shizuku #playstore to run the ADB command with the necessary permissions to forward the connection, allowing you to interact with your Galaxy Watch 4 directly from aShell #fdroid on your Android device.
+This is the easiest way, in my opinion. You can also just use Termux. 
+
+
+
