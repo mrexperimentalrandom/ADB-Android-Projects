@@ -1,0 +1,56 @@
+Here’s a quickstart guide for setting up Shizuku on Android 11 while including an app called aShell using wireless debugging and a pair code,
+all on the same phone. It’s short, to the point, and gets you running fast.
+
+Quickstart Guide: Shizuku on Android 11 with aShell (Wireless Debugging, Same Phone)
+What You’ll Need:  
+Android 11 device (atleast) 
+Shizuku app (Google Play Store)  
+aShell app (F-Droid)
+Goal: Run Shizuku and aShell on the same phone, using wireless debugging with a pair code, no PC required.
+
+Step 1: Install Apps
+
+Download and install Shizuku from the Play Store.
+Download and install aShell (GPL-3.0 version recommended).
+
+Step 2: Enable Developer Options
+
+Go to Settings > About Phone.
+Tap Build Number 7 times to unlock Developer Options.
+
+Step 3: Enable Wireless Debugging
+
+Go to Settings > System > Developer Options.
+Scroll to Debugging, instead of toggling Wireless Debugging, click the left side of the button and you shall recieve more options.
+Tap Wireless Debugging > Pair Device with Pairing Code.
+
+Step 4: Pair Shizuku
+
+Open Shizuku.
+Under Start via Wireless Debugging, tap Pairing.
+Tap Enter Pairing Code (might need to swipe down from notifications).
+Type the 6-digit code from Step 3, hit Send.
+Wait for “Pairing successful.”
+
+Step 5: Start Shizuku
+
+Back in Shizuku’s main screen, tap Start under Start via Wireless Debugging.
+A command runs for ~3 seconds, then closes.
+Check the top: “Shizuku is running” (with version and “adb”) means success.
+
+Step 6: Use aShell with Shizuku
+
+Open aShell.
+It’ll detect Shizuku and request access—tap Allow All the Time.
+Run ADB commands (e.g., whoami) in aShell’s terminal—works like a local ADB shell.
+
+Troubleshooting
+
+Stuck on “Searching…”?: Go to Developer Options, toggle Wireless Debugging off/on, retry Step 5.
+No Pair Option?: Ensure Android 11+ and Shizuku is updated.
+aShell Fails?: Restart Shizuku, re-allow permissions.
+
+Notes:  
+Shizuku stops after reboot—repeat Steps 3–5.  
+Save this in your .txt file for quick reference.
+You’re set! 
